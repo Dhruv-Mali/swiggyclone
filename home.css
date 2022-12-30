@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main0{
+    display: flex;
+}
+.main1{
+    /* background: lightblue; */
+    width: 55%;
+
+}
+.logo{
+    /* background-color: aqua; */
+    height: 45%;
+    width: 50%;
+}
+.logo2{
+    height: 55px;
+    width: 180px;
+    margin-top: 50px;
+    margin-left:180px;
+}
+.main2{
+    display: flex;
+}
+.button{
+    margin-top: 55px;
+    margin-left: 130px;
+    display: flex;
+
+}
+.button1{
+    border: solid 2px;
+    height: 40px;
+    width: 90px;
+    color: black;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    font-weight: 500;
+
+}
+.button1:hover{
+    color: orangered;
+}
+.button2{
+    border: solid 2px;
+    height: 40px;
+    width: 100px;
+    color: aliceblue;
+    background-color: black;
+    border-color: black;
+    font-weight: 600;
+    font-size: 90%;
+}
+.heading{
+    margin-top: 80px;
+    margin-left: 180px;
+    line-height: 35px;    
+}  
+.heading1{
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    font-size: 230%;
+} 
+.caption{
+    font-size: 24px;
+    font-weight: 300;
+    width: 600px;
+    line-height: 40px;
+    letter-spacing: -.3px;
+    color: #686b78;
+}
+.box{
+    margin-top: 30px;
+    margin-left: 180px;
+}
+.box1{
+    height: 50px;
+    width: 260px;
+    height: 58px;
+    line-height: 28px;
+    padding-top: 0;
+    padding-left: 15px;
+    padding-right: 160px;
+    caret-color: #fc8019;
+    font-size: 18px;
+    font-weight: 500;
+}
+.foodb1{
+    height: 90px;
+    margin-top: 30px;
+}
+.main3{
+    display: flex;
+}
+.button3{
+    height: 61px;
+    width: 150px;
+    background-color: #fc8019;
+    border-color: #fc8019;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+.city{
+    margin-left: 180px;
+    line-height: 190%;
+}
+.caption1{
+    font-weight: 400;
+    font-size: 15px;
+    color: #a9abb2;
+    margin: 30px 0 10px;
+    text-transform: uppercase;
+}
+.caption2{
+    width: 570px;
+    list-style: none;
+    font-family:ProximaNova,arial,Helvetica Neue,sans-serif;
+    color: #686b78;
+}
+.img{
+    display: flex;
+    justify-content: end;
+}
+.img1{
+ float: right;  
+ height: 600px;
+ width: 700px;
+ margin-top: -47px;
+}
+.brown{
+display: flex;
+background-color:#2b1e16;
+justify-content: space-between;
+}
+.brown1{
+    /* background-color: lightpink; */
+    width: 480px;
+    /* justify-items: center; */
+}
+.image{
+    height: 194px;
+    /* width: 100px; */
+    margin-left: 260px;
+}
+
+.cap1{
+    line-height: 80px;
+    margin-left: 220px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.cap2{
+    margin-left: 200px;
+    color: #fff;
+}
+.brown2{
+    /* background-color: #333; */
+    width: 500px;
+}
+.image2{
+    height: 194px;
+    /* width: 100px; */
+    margin-left: 200px;
+}
+.cap3{
+    line-height: 80px;
+    margin-left: 160px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.brown3{
+    width: 500px;
+}
+.image3{
+    height: 194px;
+    margin-left: 160px;
+}
+.cap5{
+    line-height: 80px;
+    margin-left: 130px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.white{
+    background-color: #fff;
+}
+
+.heading2{
+font-size: 40px;
+font-weight: 600;
+width: 300px;
+line-height: 1;
+letter-spacing: -.45px;
+color: #282c3f;
+font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+margin-top: 80px;
+margin-left: 180px;
+}
+
+.heading3{
+font-size: 20px;
+width: 400px;
+font-weight: 300;
+padding-top: 20px;
+padding-bottom: 60px;
+color: #7e808c;
+line-height: 1.2;
+font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+margin-left: 130px;
+}
+.photo1{
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 80px;
+    margin-left: 150px;
+    font-weight: 300;
+    color: #282c3f;
+    font-size: 14px;
+    line-height: 1.2;   
+}
+.photo2{
+    cursor: pointer;
+    margin-right: 20px;
+    font-weight: 300;
+    color: #282c3f;
+    font-size: 14px;
+    line-height: 1.2;   
+}
+.photo3{
+    top: 153;
+    margin-top: -200px;
+    right: 130px;
+    position: absolute; 
+}
+.photo4{
+    top: 100;
+    margin-top: -290px;
+    right: 500px;
+    position: absolute;
+
+}
